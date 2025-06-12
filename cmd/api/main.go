@@ -15,7 +15,7 @@ func main() {
 		addr: ":8080",
 		env:  "development",
 		db: dbConfig{
-			addr:               "postgresql://admin:yourpassword@localhost:5432/postgres?sslmode=disable",
+			addr:               "postgresql://postgres:yourpassword@localhost:5432/postgres?sslmode=disable",
 			maxOpenConnections: 10,
 			maxIdleConnections: 10,
 			maxIdleTime:        "15m",
